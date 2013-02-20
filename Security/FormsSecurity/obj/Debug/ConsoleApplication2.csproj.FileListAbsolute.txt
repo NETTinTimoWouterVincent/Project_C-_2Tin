@@ -1,0 +1,6 @@
+C:\Users\4127\Dropbox\2TIN .NET\2012-2013\Periode1\Thema7 - DelegateEvents\Oefening\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\4127\Dropbox\2TIN .NET\2012-2013\Periode1\Thema7 - DelegateEvents\Oefening\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+C:\Users\4127\Dropbox\2TIN .NET\2012-2013\Periode1\Thema7 - DelegateEvents\Oefening\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\4127\Dropbox\2TIN .NET\2012-2013\Periode1\Thema7 - DelegateEvents\Oefening\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\4127\Dropbox\2TIN .NET\2012-2013\Periode1\Thema7 - DelegateEvents\Oefening\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\4127\Dropbox\2TIN .NET\2012-2013\Periode1\Thema7 - DelegateEvents\Oefening\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
