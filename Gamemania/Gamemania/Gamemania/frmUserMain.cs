@@ -25,10 +25,12 @@ namespace Gamemania
                 }
             }
             LoadThemeIni();
-            btnAllGames.Click += new EventHandler(btnAllGames_Click);
+            /*btnAllGames.Click += new EventHandler(btnAllGames_Click);
             btnAllConsoles.Click += new EventHandler(btnAllConsoles_Click);
-            btnAllAccessories.Click += new EventHandler(btnAllAccessories_Click);
+            btnAllAccessories.Click += new EventHandler(btnAllAccessories_Click);*/
         }
+
+        //Zilver/zwart thema voor ribbon inladen
         private void LoadThemeIni()
         {
             string content = System.IO.File.ReadAllText("C:\\Users\\Vincent\\Documents\\GitHub\\Project_C-_2Tin\\Gamemania\\ribbontheme.ini");
@@ -36,6 +38,7 @@ namespace Gamemania
             RibbonMain.Refresh();
         }
 
+        //methode om mdi children te openen via ribbon (forms in het hoofdformulier openen)
         private void LoadForm(object form)
         {
             foreach (Form f in mdi.MdiChildren)
@@ -53,7 +56,24 @@ namespace Gamemania
             LoadForm(new frmUserAccessories());
         }
 
+        
+         
         private void btnAllGames_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frmUserGames());
+        }
+
+        private void btnPS3Games_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frmUserGames());
+        }
+
+        private void btnXboxGames_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frmUserGames());
+        }
+
+        private void btnWiiGames_Click(object sender, EventArgs e)
         {
             LoadForm(new frmUserGames());
         }
@@ -62,5 +82,21 @@ namespace Gamemania
         {
             LoadForm(new frmUserConsoles());
         }
+
+        private void btnPS3Consoles_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frmUserConsoles());
+        }
+
+        private void btnXboxConsole_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frmUserConsoles());
+        }
+
+        private void btnWiiConsole_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frmUserConsoles());
+        }
+
     }
 }
