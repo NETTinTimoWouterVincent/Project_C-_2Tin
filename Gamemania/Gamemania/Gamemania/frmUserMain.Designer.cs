@@ -31,10 +31,10 @@
             this.RibbonMain = new System.Windows.Forms.Ribbon();
             this.tabAll = new System.Windows.Forms.RibbonTab();
             this.tabGames = new System.Windows.Forms.RibbonTab();
-            this.tabConsoles = new System.Windows.Forms.RibbonTab();
-            this.tabAccessories = new System.Windows.Forms.RibbonTab();
             this.btnAllGames = new System.Windows.Forms.RibbonPanel();
+            this.tabConsoles = new System.Windows.Forms.RibbonTab();
             this.btnAllConsoles = new System.Windows.Forms.RibbonPanel();
+            this.tabAccessories = new System.Windows.Forms.RibbonTab();
             this.btnAllAccessories = new System.Windows.Forms.RibbonPanel();
             this.SuspendLayout();
             // 
@@ -67,7 +67,7 @@
             this.RibbonMain.QuickAcessToolbar.ToolTip = null;
             this.RibbonMain.QuickAcessToolbar.ToolTipTitle = null;
             this.RibbonMain.QuickAcessToolbar.Value = null;
-            this.RibbonMain.Size = new System.Drawing.Size(600, 115);
+            this.RibbonMain.Size = new System.Drawing.Size(831, 115);
             this.RibbonMain.TabIndex = 0;
             this.RibbonMain.Tabs.Add(this.tabAll);
             this.RibbonMain.Tabs.Add(this.tabGames);
@@ -98,6 +98,12 @@
             this.tabGames.ToolTipTitle = null;
             this.tabGames.Value = null;
             // 
+            // btnAllGames
+            // 
+            this.btnAllGames.Tag = null;
+            this.btnAllGames.Text = "click test";
+            this.btnAllGames.Click += new System.EventHandler(this.btnAllGames_Click);
+            // 
             // tabConsoles
             // 
             this.tabConsoles.Panels.Add(this.btnAllConsoles);
@@ -108,6 +114,12 @@
             this.tabConsoles.ToolTipImage = null;
             this.tabConsoles.ToolTipTitle = null;
             this.tabConsoles.Value = null;
+            // 
+            // btnAllConsoles
+            // 
+            this.btnAllConsoles.Tag = null;
+            this.btnAllConsoles.Text = "clicktest";
+            this.btnAllConsoles.Click += new System.EventHandler(this.btnAllConsoles_Click);
             // 
             // tabAccessories
             // 
@@ -120,18 +132,6 @@
             this.tabAccessories.ToolTipTitle = null;
             this.tabAccessories.Value = null;
             // 
-            // btnAllGames
-            // 
-            this.btnAllGames.Tag = null;
-            this.btnAllGames.Text = "click test";
-            this.btnAllGames.Click += new System.EventHandler(this.btnAllGames_Click);
-            // 
-            // btnAllConsoles
-            // 
-            this.btnAllConsoles.Tag = null;
-            this.btnAllConsoles.Text = "clicktest";
-            this.btnAllConsoles.Click += new System.EventHandler(this.btnAllConsoles_Click);
-            // 
             // btnAllAccessories
             // 
             this.btnAllAccessories.Tag = null;
@@ -142,7 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 451);
+            this.ClientSize = new System.Drawing.Size(831, 576);
             this.Controls.Add(this.RibbonMain);
             this.IsMdiContainer = true;
             this.Name = "frmUserMain";
