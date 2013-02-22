@@ -1,1 +1,15 @@
 D:\Dropbox\PHL\Share\School\- Vincent\Jaar 2\C#\Project\Gamemania\Gamemania\Gamemania\bin\Debug\Gamemania.exe.config
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\bin\Debug\Gamemania.exe.config
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\bin\Debug\Gamemania.exe
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\bin\Debug\Gamemania.pdb
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\bin\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.csprojResolveAssemblyReference.cache
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.Properties.Resources.resources
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.csproj.GenerateResource.Cache
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.exe
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.pdb
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.frmUserMain.resources
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.frmUserGames.resources
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.frmUserConsoles.resources
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.MdiChildForm.resources
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.frmUserAccessories.resources
