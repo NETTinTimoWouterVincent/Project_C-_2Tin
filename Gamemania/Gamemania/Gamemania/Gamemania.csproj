@@ -48,12 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmUserAccessories.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmUserAccessories.Designer.cs">
-      <DependentUpon>frmUserAccessories.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmUserConsoles.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +59,12 @@
     </Compile>
     <Compile Include="frmUserGames.Designer.cs">
       <DependentUpon>frmUserGames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserGenres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserGenres.Designer.cs">
+      <DependentUpon>frmUserGenres.cs</DependentUpon>
     </Compile>
     <Compile Include="frmUserMain.cs">
       <SubType>Form</SubType>
@@ -80,14 +80,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmUserAccessories.resx">
-      <DependentUpon>frmUserAccessories.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmUserConsoles.resx">
       <DependentUpon>frmUserConsoles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUserGames.resx">
       <DependentUpon>frmUserGames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserGenres.resx">
+      <DependentUpon>frmUserGenres.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUserMain.resx">
       <DependentUpon>frmUserMain.cs</DependentUpon>

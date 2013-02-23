@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Gamemania
 {
-    public partial class frmUserAccessories : MdiChildForm
+    public partial class frmUserGenres : MdiChildForm
     {
-        public frmUserAccessories()
+        public frmUserGenres()
         {
             InitializeComponent();
         }

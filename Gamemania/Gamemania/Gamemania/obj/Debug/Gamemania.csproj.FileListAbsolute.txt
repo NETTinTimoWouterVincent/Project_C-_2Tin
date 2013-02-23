@@ -12,4 +12,4 @@ C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\
 C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.frmUserGames.resources
 C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.frmUserConsoles.resources
 C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.MdiChildForm.resources
-C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.frmUserAccessories.resources
+C:\Users\Vincent\Documents\GitHub\Project_C-_2Tin\Gamemania\Gamemania\Gamemania\obj\Debug\Gamemania.frmUserGenres.resources

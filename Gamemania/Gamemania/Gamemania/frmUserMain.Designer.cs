@@ -30,17 +30,25 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUserMain));
             this.RibbonMain = new System.Windows.Forms.Ribbon();
-            this.tabAll = new System.Windows.Forms.RibbonTab();
+            this.tabGenres = new System.Windows.Forms.RibbonTab();
+            this.pnlFps = new System.Windows.Forms.RibbonPanel();
+            this.btnFps = new System.Windows.Forms.RibbonButton();
+            this.pnlRpg = new System.Windows.Forms.RibbonPanel();
+            this.btnRpg = new System.Windows.Forms.RibbonButton();
+            this.pnlRts = new System.Windows.Forms.RibbonPanel();
+            this.btnRts = new System.Windows.Forms.RibbonButton();
+            this.pnlAction = new System.Windows.Forms.RibbonPanel();
+            this.btnAction = new System.Windows.Forms.RibbonButton();
+            this.pnlRacing = new System.Windows.Forms.RibbonPanel();
+            this.btnRace = new System.Windows.Forms.RibbonButton();
             this.tabGames = new System.Windows.Forms.RibbonTab();
-            this.tabConsoles = new System.Windows.Forms.RibbonTab();
-            this.pnlAllConsoles = new System.Windows.Forms.RibbonPanel();
-            this.tabAccessories = new System.Windows.Forms.RibbonTab();
-            this.btnAllAccessories = new System.Windows.Forms.RibbonPanel();
             this.pnlGames = new System.Windows.Forms.RibbonPanel();
             this.btnAllGames = new System.Windows.Forms.RibbonButton();
             this.btnPS3Games = new System.Windows.Forms.RibbonButton();
             this.btnXboxGames = new System.Windows.Forms.RibbonButton();
             this.btnWiiGames = new System.Windows.Forms.RibbonButton();
+            this.tabConsoles = new System.Windows.Forms.RibbonTab();
+            this.pnlAllConsoles = new System.Windows.Forms.RibbonPanel();
             this.btnAllConsoles = new System.Windows.Forms.RibbonButton();
             this.btnPS3Consoles = new System.Windows.Forms.RibbonButton();
             this.btnXboxConsole = new System.Windows.Forms.RibbonButton();
@@ -60,7 +68,7 @@
             this.RibbonMain.OrbDropDown.Location = new System.Drawing.Point(0, 0);
             this.RibbonMain.OrbDropDown.Name = "";
             this.RibbonMain.OrbDropDown.RecentItemsCaption = null;
-            this.RibbonMain.OrbDropDown.Size = new System.Drawing.Size(527, 447);
+            this.RibbonMain.OrbDropDown.Size = new System.Drawing.Size(527, 72);
             this.RibbonMain.OrbDropDown.TabIndex = 0;
             this.RibbonMain.OrbImage = null;
             this.RibbonMain.OrbText = null;
@@ -76,25 +84,144 @@
             this.RibbonMain.QuickAcessToolbar.ToolTip = null;
             this.RibbonMain.QuickAcessToolbar.ToolTipTitle = null;
             this.RibbonMain.QuickAcessToolbar.Value = null;
-            this.RibbonMain.Size = new System.Drawing.Size(831, 166);
+            this.RibbonMain.Size = new System.Drawing.Size(951, 166);
             this.RibbonMain.TabIndex = 0;
-            this.RibbonMain.Tabs.Add(this.tabAll);
+            this.RibbonMain.Tabs.Add(this.tabGenres);
             this.RibbonMain.Tabs.Add(this.tabGames);
             this.RibbonMain.Tabs.Add(this.tabConsoles);
-            this.RibbonMain.Tabs.Add(this.tabAccessories);
             this.RibbonMain.TabsMargin = new System.Windows.Forms.Padding(12, 26, 20, 0);
             this.RibbonMain.TabSpacing = 6;
             this.RibbonMain.Text = "ribbon1";
             // 
-            // tabAll
+            // tabGenres
             // 
-            this.tabAll.Tag = null;
-            this.tabAll.Text = "All";
-            this.tabAll.ToolTip = null;
-            this.tabAll.ToolTipIcon = System.Windows.Forms.ToolTipIcon.None;
-            this.tabAll.ToolTipImage = null;
-            this.tabAll.ToolTipTitle = null;
-            this.tabAll.Value = null;
+            this.tabGenres.Panels.Add(this.pnlFps);
+            this.tabGenres.Panels.Add(this.pnlRpg);
+            this.tabGenres.Panels.Add(this.pnlRts);
+            this.tabGenres.Panels.Add(this.pnlAction);
+            this.tabGenres.Panels.Add(this.pnlRacing);
+            this.tabGenres.Tag = null;
+            this.tabGenres.Text = "Genres";
+            this.tabGenres.ToolTip = null;
+            this.tabGenres.ToolTipIcon = System.Windows.Forms.ToolTipIcon.None;
+            this.tabGenres.ToolTipImage = null;
+            this.tabGenres.ToolTipTitle = null;
+            this.tabGenres.Value = null;
+            // 
+            // pnlFps
+            // 
+            this.pnlFps.Items.Add(this.btnFps);
+            this.pnlFps.Tag = null;
+            this.pnlFps.Text = "";
+            // 
+            // btnFps
+            // 
+            this.btnFps.AltKey = null;
+            this.btnFps.CheckedGroup = null;
+            this.btnFps.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.btnFps.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.btnFps.Image = ((System.Drawing.Image)(resources.GetObject("btnFps.Image")));
+            this.btnFps.ShowFlashImage = false;
+            this.btnFps.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnFps.SmallImage")));
+            this.btnFps.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.btnFps.Tag = null;
+            this.btnFps.Text = "Shooter";
+            this.btnFps.ToolTip = null;
+            this.btnFps.ToolTipTitle = null;
+            this.btnFps.Value = null;
+            this.btnFps.Click += new System.EventHandler(this.btnFps_Click);
+            // 
+            // pnlRpg
+            // 
+            this.pnlRpg.Items.Add(this.btnRpg);
+            this.pnlRpg.Tag = null;
+            this.pnlRpg.Text = "";
+            // 
+            // btnRpg
+            // 
+            this.btnRpg.AltKey = null;
+            this.btnRpg.CheckedGroup = null;
+            this.btnRpg.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.btnRpg.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.btnRpg.Image = ((System.Drawing.Image)(resources.GetObject("btnRpg.Image")));
+            this.btnRpg.ShowFlashImage = false;
+            this.btnRpg.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnRpg.SmallImage")));
+            this.btnRpg.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.btnRpg.Tag = null;
+            this.btnRpg.Text = "RPG";
+            this.btnRpg.ToolTip = null;
+            this.btnRpg.ToolTipTitle = null;
+            this.btnRpg.Value = null;
+            this.btnRpg.Click += new System.EventHandler(this.btnRpg_Click);
+            // 
+            // pnlRts
+            // 
+            this.pnlRts.Items.Add(this.btnRts);
+            this.pnlRts.Tag = null;
+            this.pnlRts.Text = "";
+            // 
+            // btnRts
+            // 
+            this.btnRts.AltKey = null;
+            this.btnRts.CheckedGroup = null;
+            this.btnRts.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.btnRts.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.btnRts.Image = ((System.Drawing.Image)(resources.GetObject("btnRts.Image")));
+            this.btnRts.ShowFlashImage = false;
+            this.btnRts.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnRts.SmallImage")));
+            this.btnRts.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.btnRts.Tag = null;
+            this.btnRts.Text = "Strategy";
+            this.btnRts.ToolTip = null;
+            this.btnRts.ToolTipTitle = null;
+            this.btnRts.Value = null;
+            this.btnRts.Click += new System.EventHandler(this.btnRts_Click);
+            // 
+            // pnlAction
+            // 
+            this.pnlAction.Items.Add(this.btnAction);
+            this.pnlAction.Tag = null;
+            this.pnlAction.Text = "";
+            // 
+            // btnAction
+            // 
+            this.btnAction.AltKey = null;
+            this.btnAction.CheckedGroup = null;
+            this.btnAction.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.btnAction.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.btnAction.Image = ((System.Drawing.Image)(resources.GetObject("btnAction.Image")));
+            this.btnAction.ShowFlashImage = false;
+            this.btnAction.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnAction.SmallImage")));
+            this.btnAction.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.btnAction.Tag = null;
+            this.btnAction.Text = "Action";
+            this.btnAction.ToolTip = null;
+            this.btnAction.ToolTipTitle = null;
+            this.btnAction.Value = null;
+            this.btnAction.Click += new System.EventHandler(this.btnAction_Click);
+            // 
+            // pnlRacing
+            // 
+            this.pnlRacing.Items.Add(this.btnRace);
+            this.pnlRacing.Tag = null;
+            this.pnlRacing.Text = "";
+            // 
+            // btnRace
+            // 
+            this.btnRace.AltKey = null;
+            this.btnRace.CheckedGroup = null;
+            this.btnRace.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.btnRace.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.btnRace.Image = ((System.Drawing.Image)(resources.GetObject("btnRace.Image")));
+            this.btnRace.ShowFlashImage = false;
+            this.btnRace.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnRace.SmallImage")));
+            this.btnRace.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.btnRace.Tag = null;
+            this.btnRace.Text = "Race";
+            this.btnRace.ToolTip = null;
+            this.btnRace.ToolTipTitle = null;
+            this.btnRace.Value = null;
+            this.btnRace.Click += new System.EventHandler(this.btnRace_Click);
             // 
             // tabGames
             // 
@@ -106,43 +233,6 @@
             this.tabGames.ToolTipImage = null;
             this.tabGames.ToolTipTitle = null;
             this.tabGames.Value = null;
-            // 
-            // tabConsoles
-            // 
-            this.tabConsoles.Panels.Add(this.pnlAllConsoles);
-            this.tabConsoles.Tag = null;
-            this.tabConsoles.Text = "Consoles";
-            this.tabConsoles.ToolTip = null;
-            this.tabConsoles.ToolTipIcon = System.Windows.Forms.ToolTipIcon.None;
-            this.tabConsoles.ToolTipImage = null;
-            this.tabConsoles.ToolTipTitle = null;
-            this.tabConsoles.Value = null;
-            // 
-            // pnlAllConsoles
-            // 
-            this.pnlAllConsoles.Items.Add(this.btnAllConsoles);
-            this.pnlAllConsoles.Items.Add(this.btnPS3Consoles);
-            this.pnlAllConsoles.Items.Add(this.btnXboxConsole);
-            this.pnlAllConsoles.Items.Add(this.btnWiiConsole);
-            this.pnlAllConsoles.Tag = null;
-            this.pnlAllConsoles.Text = "";
-            // 
-            // tabAccessories
-            // 
-            this.tabAccessories.Panels.Add(this.btnAllAccessories);
-            this.tabAccessories.Tag = null;
-            this.tabAccessories.Text = "Accessories";
-            this.tabAccessories.ToolTip = null;
-            this.tabAccessories.ToolTipIcon = System.Windows.Forms.ToolTipIcon.None;
-            this.tabAccessories.ToolTipImage = null;
-            this.tabAccessories.ToolTipTitle = null;
-            this.tabAccessories.Value = null;
-            // 
-            // btnAllAccessories
-            // 
-            this.btnAllAccessories.Tag = null;
-            this.btnAllAccessories.Text = "All Accessories";
-            this.btnAllAccessories.Click += new System.EventHandler(this.btnAllAccessories_Click);
             // 
             // pnlGames
             // 
@@ -221,6 +311,26 @@
             this.btnWiiGames.Value = null;
             this.btnWiiGames.Click += new System.EventHandler(this.btnWiiGames_Click);
             // 
+            // tabConsoles
+            // 
+            this.tabConsoles.Panels.Add(this.pnlAllConsoles);
+            this.tabConsoles.Tag = null;
+            this.tabConsoles.Text = "Consoles";
+            this.tabConsoles.ToolTip = null;
+            this.tabConsoles.ToolTipIcon = System.Windows.Forms.ToolTipIcon.None;
+            this.tabConsoles.ToolTipImage = null;
+            this.tabConsoles.ToolTipTitle = null;
+            this.tabConsoles.Value = null;
+            // 
+            // pnlAllConsoles
+            // 
+            this.pnlAllConsoles.Items.Add(this.btnAllConsoles);
+            this.pnlAllConsoles.Items.Add(this.btnPS3Consoles);
+            this.pnlAllConsoles.Items.Add(this.btnXboxConsole);
+            this.pnlAllConsoles.Items.Add(this.btnWiiConsole);
+            this.pnlAllConsoles.Tag = null;
+            this.pnlAllConsoles.Text = "";
+            // 
             // btnAllConsoles
             // 
             this.btnAllConsoles.AltKey = null;
@@ -293,7 +403,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(831, 576);
+            this.ClientSize = new System.Drawing.Size(951, 675);
             this.Controls.Add(this.RibbonMain);
             this.IsMdiContainer = true;
             this.Name = "frmUserMain";
@@ -305,12 +415,10 @@
         #endregion
 
         private System.Windows.Forms.Ribbon RibbonMain;
-        private System.Windows.Forms.RibbonTab tabAll;
+        private System.Windows.Forms.RibbonTab tabGenres;
         private System.Windows.Forms.RibbonTab tabGames;
         private System.Windows.Forms.RibbonTab tabConsoles;
-        private System.Windows.Forms.RibbonTab tabAccessories;
         private System.Windows.Forms.RibbonPanel pnlAllConsoles;
-        private System.Windows.Forms.RibbonPanel btnAllAccessories;
         private System.Windows.Forms.RibbonPanel pnlGames;
         private System.Windows.Forms.RibbonButton btnAllGames;
         private System.Windows.Forms.RibbonButton btnPS3Games;
@@ -320,5 +428,15 @@
         private System.Windows.Forms.RibbonButton btnPS3Consoles;
         private System.Windows.Forms.RibbonButton btnXboxConsole;
         private System.Windows.Forms.RibbonButton btnWiiConsole;
+        private System.Windows.Forms.RibbonPanel pnlFps;
+        private System.Windows.Forms.RibbonButton btnFps;
+        private System.Windows.Forms.RibbonPanel pnlRpg;
+        private System.Windows.Forms.RibbonButton btnRpg;
+        private System.Windows.Forms.RibbonPanel pnlRts;
+        private System.Windows.Forms.RibbonButton btnRts;
+        private System.Windows.Forms.RibbonPanel pnlAction;
+        private System.Windows.Forms.RibbonButton btnAction;
+        private System.Windows.Forms.RibbonPanel pnlRacing;
+        private System.Windows.Forms.RibbonButton btnRace;
     }
 }

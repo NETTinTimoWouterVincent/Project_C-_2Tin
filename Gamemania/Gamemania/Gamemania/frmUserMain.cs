@@ -33,7 +33,7 @@ namespace Gamemania
         //Zilver/zwart thema voor ribbon inladen
         private void LoadThemeIni()
         {
-            string content = System.IO.File.ReadAllText("C:\\Users\\Vincent\\Documents\\GitHub\\Project_C-_2Tin\\Gamemania\\ribbontheme.ini");
+            string content = System.IO.File.ReadAllText(".\\ribbontheme.ini");
             ((RibbonProfessionalRenderer)RibbonMain.Renderer).ColorTable.ReadThemeIniFile(content);
             RibbonMain.Refresh();
         }
@@ -49,14 +49,7 @@ namespace Gamemania
                 return;
             ((Form)form).MdiParent = this;
             ((Form)form).Show();
-        }
-
-        private void btnAllAccessories_Click(object sender, EventArgs e)
-        {
-            LoadForm(new frmUserAccessories());
-        }
-
-        
+        }     
          
         private void btnAllGames_Click(object sender, EventArgs e)
         {
@@ -96,6 +89,31 @@ namespace Gamemania
         private void btnWiiConsole_Click(object sender, EventArgs e)
         {
             LoadForm(new frmUserConsoles());
+        }
+
+        private void btnFps_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frmUserGenres());
+        }
+
+        private void btnRpg_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frmUserGenres());
+        }
+
+        private void btnRts_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frmUserGenres());
+        }
+
+        private void btnAction_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frmUserGenres());
+        }
+
+        private void btnRace_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frmUserGenres());
         }
 
     }

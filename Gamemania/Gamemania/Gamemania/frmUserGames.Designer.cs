@@ -42,8 +42,14 @@
             this.lblConsole = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblVoorraad = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.picGames = new System.Windows.Forms.PictureBox();
+            this.btnKopen = new System.Windows.Forms.Button();
+            this.btnSite = new System.Windows.Forms.Button();
+            this.lblInformatie = new System.Windows.Forms.Label();
+            this.txtInformatie = new System.Windows.Forms.TextBox();
+            this.lblPrijs = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picGames)).BeginInit();
             this.SuspendLayout();
             // 
             // lstGames
@@ -51,7 +57,7 @@
             this.lstGames.FormattingEnabled = true;
             this.lstGames.Location = new System.Drawing.Point(23, 86);
             this.lstGames.Name = "lstGames";
-            this.lstGames.Size = new System.Drawing.Size(247, 290);
+            this.lstGames.Size = new System.Drawing.Size(247, 316);
             this.lstGames.TabIndex = 0;
             // 
             // lblGames
@@ -67,28 +73,28 @@
             // 
             // txtNaam
             // 
-            this.txtNaam.Location = new System.Drawing.Point(408, 205);
+            this.txtNaam.Location = new System.Drawing.Point(418, 86);
             this.txtNaam.Name = "txtNaam";
             this.txtNaam.Size = new System.Drawing.Size(100, 20);
             this.txtNaam.TabIndex = 1001;
             // 
             // txtOntwikkelaar
             // 
-            this.txtOntwikkelaar.Location = new System.Drawing.Point(408, 235);
+            this.txtOntwikkelaar.Location = new System.Drawing.Point(418, 116);
             this.txtOntwikkelaar.Name = "txtOntwikkelaar";
             this.txtOntwikkelaar.Size = new System.Drawing.Size(100, 20);
             this.txtOntwikkelaar.TabIndex = 1002;
             // 
             // txtUitgever
             // 
-            this.txtUitgever.Location = new System.Drawing.Point(408, 265);
+            this.txtUitgever.Location = new System.Drawing.Point(418, 146);
             this.txtUitgever.Name = "txtUitgever";
             this.txtUitgever.Size = new System.Drawing.Size(100, 20);
             this.txtUitgever.TabIndex = 1003;
             // 
             // txtRelease
             // 
-            this.txtRelease.Location = new System.Drawing.Point(408, 295);
+            this.txtRelease.Location = new System.Drawing.Point(418, 176);
             this.txtRelease.Name = "txtRelease";
             this.txtRelease.Size = new System.Drawing.Size(100, 20);
             this.txtRelease.TabIndex = 1004;
@@ -97,7 +103,7 @@
             // 
             this.lblTitel.AutoSize = true;
             this.lblTitel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitel.Location = new System.Drawing.Point(304, 208);
+            this.lblTitel.Location = new System.Drawing.Point(314, 89);
             this.lblTitel.Name = "lblTitel";
             this.lblTitel.Size = new System.Drawing.Size(33, 17);
             this.lblTitel.TabIndex = 1005;
@@ -107,7 +113,7 @@
             // 
             this.lblOntwikkelaar.AutoSize = true;
             this.lblOntwikkelaar.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOntwikkelaar.Location = new System.Drawing.Point(304, 238);
+            this.lblOntwikkelaar.Location = new System.Drawing.Point(314, 119);
             this.lblOntwikkelaar.Name = "lblOntwikkelaar";
             this.lblOntwikkelaar.Size = new System.Drawing.Size(87, 17);
             this.lblOntwikkelaar.TabIndex = 1006;
@@ -117,7 +123,7 @@
             // 
             this.lblUitgever.AutoSize = true;
             this.lblUitgever.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUitgever.Location = new System.Drawing.Point(304, 268);
+            this.lblUitgever.Location = new System.Drawing.Point(314, 149);
             this.lblUitgever.Name = "lblUitgever";
             this.lblUitgever.Size = new System.Drawing.Size(59, 17);
             this.lblUitgever.TabIndex = 1007;
@@ -127,7 +133,7 @@
             // 
             this.lblRelease.AutoSize = true;
             this.lblRelease.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRelease.Location = new System.Drawing.Point(304, 298);
+            this.lblRelease.Location = new System.Drawing.Point(314, 179);
             this.lblRelease.Name = "lblRelease";
             this.lblRelease.Size = new System.Drawing.Size(97, 17);
             this.lblRelease.TabIndex = 1008;
@@ -135,7 +141,7 @@
             // 
             // txtConsole
             // 
-            this.txtConsole.Location = new System.Drawing.Point(408, 325);
+            this.txtConsole.Location = new System.Drawing.Point(418, 206);
             this.txtConsole.Name = "txtConsole";
             this.txtConsole.Size = new System.Drawing.Size(100, 20);
             this.txtConsole.TabIndex = 1009;
@@ -144,7 +150,7 @@
             // 
             this.lblConsole.AutoSize = true;
             this.lblConsole.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConsole.Location = new System.Drawing.Point(304, 328);
+            this.lblConsole.Location = new System.Drawing.Point(314, 209);
             this.lblConsole.Name = "lblConsole";
             this.lblConsole.Size = new System.Drawing.Size(56, 17);
             this.lblConsole.TabIndex = 1010;
@@ -152,7 +158,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(408, 355);
+            this.textBox1.Location = new System.Drawing.Point(418, 236);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1011;
@@ -161,26 +167,85 @@
             // 
             this.lblVoorraad.AutoSize = true;
             this.lblVoorraad.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVoorraad.Location = new System.Drawing.Point(304, 358);
+            this.lblVoorraad.Location = new System.Drawing.Point(314, 239);
             this.lblVoorraad.Name = "lblVoorraad";
             this.lblVoorraad.Size = new System.Drawing.Size(63, 17);
             this.lblVoorraad.TabIndex = 1012;
             this.lblVoorraad.Text = "Voorraad";
             // 
-            // pictureBox1
+            // picGames
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(307, 86);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(201, 103);
-            this.pictureBox1.TabIndex = 1013;
-            this.pictureBox1.TabStop = false;
+            this.picGames.Location = new System.Drawing.Point(572, 86);
+            this.picGames.Name = "picGames";
+            this.picGames.Size = new System.Drawing.Size(155, 170);
+            this.picGames.TabIndex = 1013;
+            this.picGames.TabStop = false;
+            // 
+            // btnKopen
+            // 
+            this.btnKopen.Location = new System.Drawing.Point(572, 338);
+            this.btnKopen.Name = "btnKopen";
+            this.btnKopen.Size = new System.Drawing.Size(155, 38);
+            this.btnKopen.TabIndex = 1036;
+            this.btnKopen.Text = "Kopen";
+            this.btnKopen.UseVisualStyleBackColor = true;
+            // 
+            // btnSite
+            // 
+            this.btnSite.Location = new System.Drawing.Point(572, 290);
+            this.btnSite.Name = "btnSite";
+            this.btnSite.Size = new System.Drawing.Size(155, 37);
+            this.btnSite.TabIndex = 1035;
+            this.btnSite.Text = "Website";
+            this.btnSite.UseVisualStyleBackColor = true;
+            // 
+            // lblInformatie
+            // 
+            this.lblInformatie.AutoSize = true;
+            this.lblInformatie.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformatie.Location = new System.Drawing.Point(314, 270);
+            this.lblInformatie.Name = "lblInformatie";
+            this.lblInformatie.Size = new System.Drawing.Size(105, 17);
+            this.lblInformatie.TabIndex = 1038;
+            this.lblInformatie.Text = "Meer informatie";
+            // 
+            // txtInformatie
+            // 
+            this.txtInformatie.Location = new System.Drawing.Point(317, 290);
+            this.txtInformatie.Multiline = true;
+            this.txtInformatie.Name = "txtInformatie";
+            this.txtInformatie.Size = new System.Drawing.Size(201, 112);
+            this.txtInformatie.TabIndex = 1037;
+            // 
+            // lblPrijs
+            // 
+            this.lblPrijs.AutoSize = true;
+            this.lblPrijs.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrijs.Location = new System.Drawing.Point(565, 382);
+            this.lblPrijs.Name = "lblPrijs";
+            this.lblPrijs.Size = new System.Drawing.Size(33, 17);
+            this.lblPrijs.TabIndex = 1040;
+            this.lblPrijs.Text = "Prijs";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(602, 382);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(54, 20);
+            this.textBox3.TabIndex = 1039;
             // 
             // frmUserGames
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(547, 426);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(795, 473);
+            this.Controls.Add(this.lblPrijs);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.lblInformatie);
+            this.Controls.Add(this.txtInformatie);
+            this.Controls.Add(this.btnKopen);
+            this.Controls.Add(this.btnSite);
+            this.Controls.Add(this.picGames);
             this.Controls.Add(this.lblVoorraad);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblConsole);
@@ -197,7 +262,7 @@
             this.Controls.Add(this.lstGames);
             this.Name = "frmUserGames";
             this.Text = "frmUserGames";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGames)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -219,7 +284,13 @@
         private System.Windows.Forms.Label lblConsole;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblVoorraad;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picGames;
+        private System.Windows.Forms.Button btnKopen;
+        private System.Windows.Forms.Button btnSite;
+        private System.Windows.Forms.Label lblInformatie;
+        private System.Windows.Forms.TextBox txtInformatie;
+        private System.Windows.Forms.Label lblPrijs;
+        private System.Windows.Forms.TextBox textBox3;
 
     }
 }
